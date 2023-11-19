@@ -1,0 +1,105 @@
+.selected-screen {
+    display: flex;
+    justify-content: center;
+
+    .list-character {
+        width: 161px;
+        height: 230px;
+        background-color: #eddec1;
+        border-radius: 6px;
+        margin-top: 28px;
+
+        .list-character__logo {
+            background: url('../../assets/img/logo-list-character.png') no-repeat;
+            background-size: contain;
+            width: 160px;
+            height: 55px;
+
+        }
+
+        .list-character__detail {
+            padding: 10px;
+            margin-top: 5px;
+            height: 170px;
+
+            .detail-character__left-icon {
+                background-repeat: no-repeat !important;
+                background-size: 10px 11px !important;
+                width: 10px;
+                height: 11px;
+                position: relative;
+                top: 3px;
+                left: 20px;
+            }
+
+            .card-character {
+                display: flex;
+                margin-bottom: 10px;
+                cursor: pointer;
+
+                .card-character__avt {
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    height: 35px;
+                    width: 45px;
+                }
+
+                .card-character__detail {
+                    line-height: 24px;
+                    color: #42332a;
+                    font-size: 13px;
+
+                    &:hover {
+                        color: #973e0e;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .detail-character {
+        background: url('../../assets/img/p2_bg_9a3ba95.png') no-repeat;
+        width: 305px;
+        background-size: 305px 230px;
+        margin: 28px 0 0 5px;
+        padding: 10px;
+
+        .detail-character__left {
+            display: flex;
+            color: #42332a;
+
+            .detail-character__left-detail {
+                width: 150px;
+
+                .name-character {
+                    font-size: 26px;
+                    font-weight: 700;
+                }
+
+                .description-character {
+                    font-size: 14px;
+                }
+            }
+
+            .imgBody-character {
+                background-repeat: no-repeat;
+                width: 145px;
+                height: 200px;
+            }
+        }
+
+    }
+}
+
+.container-screen-bg {
+    width: 524px;
+    height: 288px;
+    background-color: #d9c1a1;
+}
+
+.is-selected {
+    font-size: 17px !important;
+    color: #973e0e !important;
+    font-weight: 700;
+}

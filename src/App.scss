@@ -1,0 +1,38 @@
+body {
+    position: relative;
+    top: 10px;
+    left: 7%;
+    overflow: hidden;
+}
+
+.App {
+    width: 700px;
+    background-image: url('./assets/img/bg-app.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    position: relative;
+    left: 75px;
+    top: 17px;
+}
+
+.container-screen {
+    width: 524px;
+    height: 289px;
+    background-repeat: no-repeat;
+    background-size: 531px 289px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#root {
+    height: 345px;
+    width: 695px;
+}

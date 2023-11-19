@@ -1,0 +1,107 @@
+.list-choice {
+    position: relative;
+    width: 180px;
+    margin-top: 60px;
+
+    .player-button {
+        background-color: #d9c1a1;
+        height: 70px;
+        margin-bottom: 40px;
+        width: 180px;
+        border-radius: 25px;
+        display: flex;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        box-shadow: 1px 1px 1px 1px #000;
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+        .player-button_img {
+            width: 63px;
+            height: 50px;
+            background-size: 50px 50px !important;
+        }
+
+        .one-player {
+            background: url('../../assets/img/lightning_db48e18.png') no-repeat;
+
+        }
+
+        .two-player {
+            background: url('../../assets/img/logo_f3ac03a.png') no-repeat;
+
+        }
+
+        .player-button__content {
+            font-size: 18px;
+            font-weight: 700;
+            margin-top: 2px;
+            margin-left: 5px;
+            color: #973e0e;
+        }
+    }
+}
+
+.character {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bg1 {
+    width: 180px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 180px 200px;
+    margin-top: 25px;
+}
+
+.bg2 {
+    width: 170px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 175px 202px;
+}
+
+.logo {
+    background: url('../../assets/img/logo-list-character.png') no-repeat;
+    background-size: contain;
+    width: 160px;
+    height: 55px;
+    margin: 10px 0 0 5px;
+}
+
+.text_Win {
+    color: yellow;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bg-win {
+    margin-top: 50px;
+    width: 580px;
+    height: 210px;
+    background-repeat: no-repeat;
+    background-size: 175px 202px;
+}
+
+.icon-home {
+    position: relative;
+    left: -90vh;
+    top: 48vh;
+    font-size: 30px;
+    color: rgb(218, 171, 146);
+}
+
+.icon-reload {
+    position: relative;
+    left: -82vh;
+    top: 49vh;
+    font-size: 30px;
+    color: rgb(218, 171, 146);
+}
